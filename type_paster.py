@@ -12,4 +12,4 @@ def type_clipboard():
 paste_hotkey = 'esc+v'
 exit_hotkey = 'esc+q'
 keyboard.add_hotkey(paste_hotkey, type_clipboard, suppress=True)
-keyboard.wait(exit_hotkey)
+keyboard.wait(exit_hotkey, suppress=True)
