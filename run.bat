@@ -1,4 +1,3 @@
-:: run type_paster.py in the current directory
-REM Path: type_paster.py
+:: Run the type paster in the background
 @echo off
-python type_paster.py
+start /min pythonw type_paster.py
